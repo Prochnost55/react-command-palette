@@ -1,0 +1,65 @@
+.command-pallete-container {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+
+  background: rgba(0, 0, 0, 0.4);
+}
+.command-pallete {
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+
+  padding: 10px 15px;
+  -webkit-box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.51);
+  box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.51);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.command-pallete input {
+  width: 300px;
+  padding: 10px 16px 10px 5px;
+  background: black;
+  border: 0;
+  height: 20px;
+  color: white;
+  caret-color: white;
+}
+.command-pallete input:focus-visible {
+  outline: none;
+}
+.n-vis {
+  display: none;
+}
+
+.suggestion-list-item > a {
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  text-decoration: none;
+}
+
+.suggestion-list-item-svg {
+  height: 20px;
+  width: 20px;
+  bottom: -0.25em;
+}
+
+.input-label {
+  display: flex;
+  align-items: center;
+}
+
+.input-label svg {
+  height: 20px;
+  width: 20px;
+}
